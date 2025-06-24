@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/compromissos.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/compromissos", "dest": "/api/compromissos.js" }
+  ]
+}
